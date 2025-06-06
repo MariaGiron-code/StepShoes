@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #11191d;
     color: white;
+    line-height: 1.6;
 }
 
 /* Header */
@@ -41,6 +42,100 @@ body {
     color: #000;
 }
 
+/* Banner */
+.banner {
+    background-color: #f49b42;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.banner-imagenes img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.frase-banner {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #222;
+}
+
+/* Bienvenida */
+.bienvenida {
+    background-color: #11191d;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.caja-bienvenida {
+    border: 2px solid #00aaff;
+    padding: 30px;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.caja-bienvenida h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.caja-bienvenida p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Sección Nosotros */
+.nosotros {
+    background-color: #11191d;
+    padding: 50px 0;
+}
+
+.fondo-nosotros {
+    background-image: url('img/fondo-nosotros.jpg'); /* Usa tu imagen aquí */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 80px 0;
+    position: relative;
+}
+
+.caja-nosotros {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-left: 5px solid #f49b42;
+    border-radius: 10px;
+}
+
+.caja-nosotros h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.caja-nosotros p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 /* Footer */
 .footer {
     background-color: #f2f2f2;
@@ -74,6 +169,6 @@ body {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #222222;
     padding-top: 10px;
 }
