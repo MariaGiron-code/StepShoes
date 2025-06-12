@@ -1,3 +1,4 @@
+/*ESTILO PARA TODAS LAS PAGINAS DEL SITIO WEB*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -70,6 +71,11 @@ body {
     margin-top: 15px;
     font-size: 18px;
     color: #222;
+}
+/* estilo de las imagenes en el carrucel del banner */
+.banner img {
+    height: 400px;
+    object-fit: cover; /* Ajusta la imagen al contenedor */
 }
 
 /* Bienvenida */
