@@ -46,7 +46,7 @@ body {
 /* Banner */
 .banner {
     background-color: #f49b42;
-    padding: 20px;
+    padding: 200px;
     text-align: center;
 }
 
@@ -74,8 +74,10 @@ body {
 }
 /* estilo de las imagenes en el carrucel del banner */
 .banner img {
-    height: 400px;
-    object-fit: cover; /* Ajusta la imagen al contenedor */
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 /* Bienvenida */
@@ -112,14 +114,14 @@ body {
 }
 
 .fondo-nosotros {
-    background-image: url('img/fondo-nosotros.jpg'); /* Usa tu imagen aquí */
-    background-size: cover;
-    background-position: center;
+    background-image: url('images/imagen4.jpeg');
     border-radius: 20px;
     margin: 0 auto;
     width: 90%;
     padding: 80px 0;
     position: relative;
+    display: flex; /* Asegura que el contenido se centre */
+
 }
 
 .caja-nosotros {
