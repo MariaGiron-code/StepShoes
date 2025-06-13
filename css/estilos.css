@@ -46,36 +46,32 @@ body {
 /* Banner */
 .banner {
     background-color: #f49b42;
-    padding: 200px;
+    padding: 100px;
     text-align: center;
 }
 
 .banner-imagenes {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .banner-imagenes img {
-    width: 250px;
+    width: 50px;
     height: 180px;
-    object-fit: cover;
     border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .frase-banner {
     font-style: italic;
     font-weight: bold;
-    margin-top: 15px;
     font-size: 18px;
     color: #222;
 }
 /* estilo de las imagenes en el carrucel del banner */
 .banner img {
     height: 500px;
-    width: 100%;
+    width: 50%;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -90,7 +86,6 @@ body {
 }
 
 .caja-bienvenida {
-    border: 2px solid #00aaff;
     padding: 30px;
     max-width: 800px;
     text-align: center;
@@ -114,11 +109,11 @@ body {
 }
 
 .fondo-nosotros {
-    background-image: url('images/imagen4.jpeg');
+    background-image: url('../images/imagen4.jpeg');
     border-radius: 20px;
     margin: 0 auto;
-    width: 90%;
-    padding: 80px 0;
+    width: 50%;
+    padding: 100px 0;
     position: relative;
     display: flex; /* Asegura que el contenido se centre */
 
@@ -148,15 +143,19 @@ body {
 .footer {
     background-color: #f2f2f2;
     color: black;
-    padding: 40px 20px 10px;
+    padding: 30px 0;
+    font-size: 16px;
+    position: relative;
+
 }
 
 .container-footer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* sirve para que las columnas se ajusten al tamaño de la pantalla */
     gap: 30px;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
+
 }
 
 .footer-section h3 {
@@ -167,16 +166,17 @@ body {
 .footer-section ul {
     list-style: none;
     padding: 0;
+
 }
 
 .footer-section ul li {
     margin-bottom: 5px;
+
 }
 
 .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    border-top: 1px solid #222222;
-    padding-top: 10px;
+    background-color: #222222;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 35px;
 }
